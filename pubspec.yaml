@@ -1,0 +1,12 @@
+name: quiz_app
+description: QuizUp sample
+environment:
+  sdk: '^3.9.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  google_fonts: ^6.3.2
+
+flutter:
+  uses-material-design: true
