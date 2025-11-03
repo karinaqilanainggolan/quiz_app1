@@ -1,8 +1,8 @@
-🚀 **Quiz Up**
+💡 **Quiz Up**
 
 ---
 
-### 👤 **Identitas Pengembang**
+### 🧑‍💻 **Identitas Pengembang**
 
 | Nama | NIM | Lab |
 | :--- | :---: | :---: |
@@ -10,13 +10,13 @@
 
 ---
 
-### 📖 **Deskripsi Aplikasi**
+### 📄 **Deskripsi Aplikasi**
 
 **Quiz Up** adalah aplikasi kuis interaktif yang dirancang untuk memberikan pengalaman belajar yang menyenangkan. Aplikasi ini memungkinkan pengguna untuk menguji pengetahuan mereka melalui berbagai set pertanyaan pilihan ganda. Dibuat dengan Flutter, aplikasi ini menawarkan antarmuka yang bersih dan responsif, serta memberikan umpan balik instan berupa skor di akhir setiap sesi kuis.
 
 ---
 
-### ⭐ **Fitur Utama**
+### ✨ **Fitur Utama**
 
 *   **Pilihan Ganda:** Pertanyaan disajikan dalam format pilihan ganda yang intuitif dan mudah digunakan.
 *   **Navigasi Pertanyaan:** Pengguna dapat dengan mudah berpindah dari satu pertanyaan ke pertanyaan berikutnya.
@@ -25,16 +25,8 @@
 
 ---
 
-### 🎨 **Screenshot Aplikasi**
 
-*(Di sini Anda dapat menyisipkan gambar atau video demo dari aplikasi Anda)*
-
-**Contoh:**
-![Tampilan Aplikasi](link-ke-screenshot-anda.png)
-
----
-
-### 🔗 **Link Mockup/Prototype**
+### 🌐 **Link Mockup/Prototype**
 
 Desain antarmuka dan prototipe aplikasi ini dapat dilihat melalui tautan Figma di bawah ini:
 
@@ -42,7 +34,7 @@ Desain antarmuka dan prototipe aplikasi ini dapat dilihat melalui tautan Figma d
 
 ---
 
-### 🛠️ **Credit & Teknologi**
+### 📚 **Credit & Teknologi**
 
 *   **Framework:** [Flutter](https://flutter.dev/)
 *   **Bahasa Pemrograman:** [Dart](https://dart.dev/)
