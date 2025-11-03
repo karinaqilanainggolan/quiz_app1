@@ -1,6 +1,5 @@
-import 'package:quiz_app/models/questions.dart';
+import 'package:quiz_app/models/question.dart';
 
-import '../models/question.dart';
 import '../data/questions.dart';
 
 class QuizManager {

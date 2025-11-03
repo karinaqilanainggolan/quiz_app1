@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/%20core/styles.dart';
 import 'package:quiz_app/core/styles.dart';
-import '../services/quiz_manager.dart';
+import 'package:quiz_app/service/quiz_manager.dart';
 import '../widgets/primary_button.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -28,20 +27,20 @@ class _HomeScreenState extends State<HomeScreen> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const SizedBox(height: 24),
+            const SizedBox(height: 50),
             const Text('Ayo Uji\nPengetahuanmu!',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 28, fontWeight: FontWeight.w800, color: Colors.white)),
             const Spacer(),
-            const Icon(Icons.calculate_outlined, size: 96, color: Colors.white),
+            const Icon(Icons.calculate_outlined, size: 200, color: Colors.white),
             const Spacer(),
             TextField(
               controller: _controller,
               textCapitalization: TextCapitalization.words,
-              style: const TextStyle(color: AppColors.textDark, fontWeight: FontWeight.w700),
+              style: TextStyle(color: AppColors.textDark, fontWeight: FontWeight.w700),
               decoration: InputDecoration(
                 hintText: 'NAMA ANDA',
-                hintStyle: const TextStyle(
+                hintStyle: TextStyle(
                     color: AppColors.textDark, fontWeight: FontWeight.w800, letterSpacing: .8),
                 filled: true,
                 fillColor: Colors.white,

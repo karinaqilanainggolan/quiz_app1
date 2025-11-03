@@ -1,6 +1,4 @@
-import 'package:quiz_app/models/questions.dart';
-
-import '../models/question.dart';
+import 'package:quiz_app/models/question.dart';
 
 final questions = <Question>[
   // IPA
@@ -17,6 +15,62 @@ final questions = <Question>[
     text: 'Air mendidih pada suhu berapa di permukaan laut?',
     options: ['50°C', '75°C', '100°C', '120°C'],
     correctIndex: 2,
+  ),
+  Question(
+    id: 'ipa3',
+    category: 'IPA',
+    text: 'Planet terdekat dengan Matahari adalah...',
+    options: ['Venus', 'Mars', 'Merkurius', 'Bumi'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'ipa4',
+    category: 'IPA',
+    text: 'Bagian tumbuhan yang berfungsi untuk menyerap air dan mineral adalah...',
+    options: ['Batang', 'Daun', 'Akar', 'Bunga'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'ipa5',
+    category: 'IPA',
+    text: 'Gas yang kita hirup saat bernapas adalah...',
+    options: ['Karbon dioksida', 'Oksigen', 'Nitrogen', 'Hidrogen'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'ipa6',
+    category: 'IPA',
+    text: 'Hewan yang mengalami metamorfosis sempurna adalah...',
+    options: ['Kucing', 'Ayam', 'Belalang', 'Kupu-kupu'],
+    correctIndex: 3,
+  ),
+  Question(
+    id: 'ipa7',
+    category: 'IPA',
+    text: 'Bunyi merambat paling cepat melalui media...',
+    options: ['Udara', 'Air', 'Besi', 'Vakum'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'ipa8',
+    category: 'IPA',
+    text: 'Penyakit yang disebabkan oleh virus influenza adalah...',
+    options: ['Demam berdarah', 'Flu', 'TBC', 'Malaria'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'ipa9',
+    category: 'IPA',
+    text: 'Sumber energi terbesar di tata surya kita adalah...',
+    options: ['Bulan', 'Bumi', 'Matahari', 'Jupiter'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'ipa10',
+    category: 'IPA',
+    text: 'Proses fotosintesis menghasilkan...',
+    options: ['Air dan Oksigen', 'Gula dan Oksigen', 'Karbon dioksida dan Air', 'Gula dan Air'],
+    correctIndex: 1,
   ),
 
   // Seni
@@ -39,6 +93,62 @@ final questions = <Question>[
     options: ['Arang', 'Pensil/pena', 'Cat akrilik', 'Kuas air'],
     correctIndex: 1,
   ),
+  Question(
+    id: 'seni3',
+    category: 'Seni',
+    text: 'Alat musik yang dipetik adalah...',
+    options: ['Piano', 'Biola', 'Gitar', 'Drum'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'seni4',
+    category: 'Seni',
+    text: 'Patung adalah karya seni rupa...',
+    options: ['Dua dimensi', 'Tiga dimensi', 'Empat dimensi', 'Satu dimensi'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'seni5',
+    category: 'Seni',
+    text: 'Siapakah pelukis "Mona Lisa"?',
+    options: ['Vincent van Gogh', 'Pablo Picasso', 'Leonardo da Vinci', 'Claude Monet'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'seni6',
+    category: 'Seni',
+    text: 'Tari Kecak berasal dari daerah...',
+    options: ['Jawa Tengah', 'Bali', 'Sumatra Barat', 'Kalimantan Timur'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'seni7',
+    category: 'Seni',
+    text: 'Pencampuran warna merah dan kuning akan menghasilkan warna...',
+    options: ['Hijau', 'Ungu', 'Jingga', 'Coklat'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'seni8',
+    category: 'Seni',
+    text: 'Lagu "Indonesia Raya" diciptakan oleh...',
+    options: ['Ismail Marzuki', 'C. Simanjuntak', 'W.R. Supratman', 'Ibu Sud'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'seni9',
+    category: 'Seni',
+    text: 'Wayang kulit merupakan seni pertunjukan tradisional dari...',
+    options: ['Bali', 'Jawa', 'Sumatra', 'Sulawesi'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'seni10',
+    category: 'Seni',
+    text: 'Batik adalah seni melukis di atas kain yang berasal dari negara...',
+    options: ['Malaysia', 'Thailand', 'Vietnam', 'Indonesia'],
+    correctIndex: 3,
+  ),
 
   // Matematika
   Question(
@@ -54,6 +164,62 @@ final questions = <Question>[
     text: 'Bilangan prima terkecil adalah...',
     options: ['0', '1', '2', '3'],
     correctIndex: 2,
+  ),
+  Question(
+    id: 'mtk3',
+    category: 'Matematika',
+    text: 'Sebuah persegi dengan sisi 5 cm memiliki luas...',
+    options: ['20 cm²', '25 cm²', '30 cm²', '15 cm²'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'mtk4',
+    category: 'Matematika',
+    text: 'Hasil dari 150 - 75 adalah...',
+    options: ['75', '85', '65', '55'],
+    correctIndex: 0,
+  ),
+  Question(
+    id: 'mtk5',
+    category: 'Matematika',
+    text: 'Berapa jumlah sisi pada sebuah kubus?',
+    options: ['4', '6', '8', '12'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'mtk6',
+    category: 'Matematika',
+    text: 'Angka romawi untuk 10 adalah...',
+    options: ['V', 'L', 'C', 'X'],
+    correctIndex: 3,
+  ),
+  Question(
+    id: 'mtk7',
+    category: 'Matematika',
+    text: 'Jika 3x = 18, maka nilai x adalah...',
+    options: ['3', '6', '9', '18'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'mtk8',
+    category: 'Matematika',
+    text: 'Hasil dari 1/2 + 1/4 adalah...',
+    options: ['1/3', '2/4', '3/4', '1'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'mtk9',
+    category: 'Matematika',
+    text: 'Sudut siku-siku memiliki besar...',
+    options: ['45 derajat', '90 derajat', '180 derajat', '360 derajat'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'mtk10',
+    category: 'Matematika',
+    text: 'Keliling lingkaran dengan diameter 10 cm adalah...',
+    options: ['31.4 cm', '20 cm', '100 cm', '50 cm'],
+    correctIndex: 0,
   ),
 
   // Bahasa
@@ -71,6 +237,63 @@ final questions = <Question>[
     options: ['Ijin', 'Izin', 'Ijyn', 'Ejin'],
     correctIndex: 1,
   ),
+  Question(
+    id: 'bhs3',
+    category: 'Bahasa',
+    text: 'Sinonim dari kata “pintar” adalah...',
+    options: ['Bodoh', 'Cerdas', 'Malas', 'Rajin'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'bhs4',
+    category: 'Bahasa',
+    text: 'Kalimat yang benar adalah...',
+    options: ['Saya pergi ke pasar kemaren.', 'Kemarin saya pergi ke pasar.', 'Saya ke pasar pergi kemarin.', 'Pasar saya pergi kemarin.'],
+    correctIndex: 1,
+  ),
+  Question(
+    id: 'bhs5',
+    category: 'Bahasa',
+    text: '“Membanting tulang” adalah contoh dari...',
+    options: ['Majas', 'Peribahasa', 'Ungkapan', 'Pantun'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'bhs6',
+    category: 'Bahasa',
+    text: 'Subjek pada kalimat "Ibu memasak nasi di dapur" adalah...',
+    options: ['Ibu', 'Memasak', 'Nasi', 'Di dapur'],
+    correctIndex: 0,
+  ),
+  Question(
+    id: 'bhs7',
+    category: 'Bahasa',
+    text: 'Penulisan gelar yang benar adalah...',
+    options: ['Dr. Budi Santoso', 'DR. Budi Santoso', 'Dr Budi Santoso', 'dr. Budi Santoso'],
+    correctIndex: 0,
+  ),
+  Question(
+    id: 'bhs8',
+    category: 'Bahasa',
+    text: 'Kata depan yang menunjukkan tempat adalah...',
+    options: ['ke, dari', 'dan, atau', 'di, pada', 'untuk, bagi'],
+    correctIndex: 2,
+  ),
+  Question(
+    id: 'bhs9',
+    category: 'Bahasa',
+    text: 'Apa kepanjangan dari singkatan KBBI?',
+    options: ['Kamus Besar Bahasa Indonesia', 'Kamus Bahasa Baku Indonesia', 'Kumpulan Besar Bahasa Indonesia', 'Kaidah Bahasa Baku Indonesia'],
+    correctIndex: 0,
+  ),
+  Question(
+    id: 'bhs10',
+    category: 'Bahasa',
+    text: 'Orang yang ahli dalam bahasa disebut...',
+    options: ['Pujangga', 'Sastrawan', 'Linguis', 'Penyair'],
+    correctIndex: 2,
+  ),
 ];
 
 const categories = ['Matematika', 'Seni', 'IPA', 'Bahasa'];
+

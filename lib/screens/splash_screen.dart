@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/%20core/styles.dart';
 import 'package:quiz_app/core/styles.dart';
 
 
@@ -27,14 +26,14 @@ class _SplashScreenState extends State<SplashScreen> {
         child: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
+            children: [
               CircleAvatar(
                 radius: 48,
                 backgroundColor: Colors.white,
                 child: Icon(Icons.lightbulb_outline, size: 42, color: AppColors.primary),
               ),
-              SizedBox(height: 28),
-              Text('QuizUp!', style: TextStyle(
+              const SizedBox(height: 28),
+              const Text('QuizUp!', style: TextStyle(
                   color: Colors.white, fontSize: 36, fontWeight: FontWeight.w900))
             ],
           ),

@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:quiz_app/%20core/styles.dart';
 import 'package:quiz_app/core/styles.dart';
-import '../services/quiz_manager.dart';
+import 'package:quiz_app/service/quiz_manager.dart';
 import '../widgets/option_tile.dart';
 import '../widgets/progress_bar.dart';
 

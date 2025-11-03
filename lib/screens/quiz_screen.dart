@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../services/quiz_manager.dart';
+import 'package:quiz_app/service/quiz_manager.dart';
 import '../widgets/option_tile.dart';
 import '../widgets/progress_bar.dart';
 
@@ -35,13 +35,13 @@ class _QuizScreenState extends State<QuizScreen> {
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
             QuizProgressBar(index: qm.index, total: qm.total),
-            const SizedBox(height: 16),
+            const SizedBox(height: 50),
             Text(
               '${qm.index + 1}. ${q.text}',
               style: const TextStyle(
                   color: Colors.white, fontSize: 20, fontWeight: FontWeight.w700),
             ),
-            const SizedBox(height: 20),
+            const SizedBox(height: 50),
             ...List.generate(q.options.length, (i) {
               final sel = qm.chosen[qm.index] == i;
               return Padding(

@@ -1,12 +1,23 @@
 name: quiz_app
-description: QuizUp sample
+description: "QuizUp sample"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
 environment:
-  sdk: '^3.9.0'
+  sdk: ^3.9.0
 
 dependencies:
   flutter:
     sdk: flutter
   google_fonts: ^6.3.2
 
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
 flutter:
   uses-material-design: true
+  fonts:
+    - family: Audiowide
+      fonts:
+        - asset: assets/font/Audiowide-Regular.ttf

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../services/quiz_manager.dart';
+import 'package:quiz_app/service/quiz_manager.dart';
 import '../widgets/primary_button.dart';
 
 class ResultScreen extends StatelessWidget {
@@ -19,12 +19,12 @@ class ResultScreen extends StatelessWidget {
             const SizedBox(height: 24),
             const Text('Selamat !!!',
                 style: TextStyle(fontSize: 28, fontWeight: FontWeight.w800, color: Colors.white)),
-            const SizedBox(height: 8),
-            const Icon(Icons.emoji_events, size: 64, color: Colors.amber),
-            const SizedBox(height: 24),
+            const SizedBox(height: 50),
+            const Icon(Icons.emoji_events, size: 100, color: Colors.amber),
+            const SizedBox(height: 50),
             const Text('Skor Kamu :', style: TextStyle(fontSize: 22, color: Colors.white)),
             Text(
-              '$score/$total',
+              '${(score*100/total).toInt()}/100',
               style: const TextStyle(fontSize: 34, fontWeight: FontWeight.w900, color: Colors.white),
             ),
             const SizedBox(height: 28),
